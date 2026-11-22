@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node.js & Vite
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.tools/
+
+# Environment Variables & Local Config
+.env
+.env.local
+.env.*.local
+
+# Database & Runtime Logs
+*.db
+backend/fraud_history.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Datasets (150MB raw file exceeds GitHub 100MB file limit)
+# Note: Sample test CSVs (batch_prediction_sample.csv) are preserved in git
+dataset/creditcard.csv
+
+# OS metadata
+.DS_Store
+Thumbs.db
