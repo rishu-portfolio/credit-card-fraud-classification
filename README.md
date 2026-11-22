@@ -321,33 +321,6 @@ The application is structured for instant, zero-cost cloud deployment on **Rende
 
 ---
 
-## GitHub Upload Instructions
-
-To upload your project to GitHub:
-
-```bash
-# 1. Initialize git (if not already initialized)
-git init
-
-# 2. Stage all files (ensuring .gitignore protects raw 150MB dataset)
-git add .
-
-# 3. Check staged files
-git status
-
-# 4. Commit changes
-git commit -m "feat: complete credit card fraud classification system with React and Flask"
-
-# 5. Add your remote GitHub repository
-git branch -M main
-git remote add origin https://github.com/your-username/credit-card-fraud-classification.git
-
-# 6. Push code to GitHub
-git push -u origin main
-```
-
----
-
 ## Academic Presentation & Viva Guide
 
 Common questions asked by university external examiners during project evaluations:
